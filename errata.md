@@ -8,7 +8,8 @@ It's just the path to the folder.
 
 #### Fix
 You need to do `os.path.join(raster.path, raster.name)` to get actually get the full path & filename.
-Alternative: Use `raster.catalogPath`.
+
+An even more direct alternative would be to use `raster.catalogPath`.
 
 ## Toolboxes
 [Version Pro and earlier toolboxes] (https://pro.arcgis.com/en/pro-app/arcpy/classes/parameter.htm)
